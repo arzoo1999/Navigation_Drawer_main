@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="App">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_app1"
+                    android:icon="@drawable/ic_baseline_calculate_24"
+                    android:title="Calculator App" />
+                <item
+                    android:id="@+id/nav_app2"
+                    android:icon="@drawable/insert_comment"
+                    android:title="MCQ App" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
